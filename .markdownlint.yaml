@@ -1,0 +1,6 @@
+line-length: false # conflicts with Prettier for CJK documents
+no-duplicate-heading:
+  siblings_only: true
+no-inline-html: false
+first-line-h1: false # could be in front matter
+emphasis-style: false # handled by Prettier
