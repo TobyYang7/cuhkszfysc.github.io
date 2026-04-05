@@ -64,8 +64,8 @@ type: page
 
 ## 贡献者
 
-<a href="https://github.com/CUHKSZFYSC/CUHKSZFYSC/graphs/contributors">
-  <br><img src="https://contributors-img.web.app/image?repo=CUHKSZFYSC/CUHKSZFYSC" />
+<a href="https://github.com/CUHKSZFYSC/cuhkszfysc.github.io/graphs/contributors">
+  <br><img src="https://contributors-img.web.app/image?repo=CUHKSZFYSC/cuhkszfysc.github.io" />
 </a>
 
 ## 友情链接

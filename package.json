@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@primeuix/themes": "^2.0.2",
-    "character-entities-html4": "^2.1.0",
     "primevue": "^4.3.7"
   },
   "devDependencies": {

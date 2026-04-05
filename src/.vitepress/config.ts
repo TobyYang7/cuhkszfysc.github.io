@@ -8,10 +8,7 @@ export default {
   srcDir: "../content",
   outDir: "../dist",
   cacheDir: "../cache",
-  base:
-    process.env.GITHUB_PAGES === "true" || process.env.GITHUB_ACTIONS === "true"
-      ? "/CUHKSZFYSC/"
-      : "/",
+  base: "/",
   cleanUrls: true,
   title: "CUHKSZ 飞跃手册",
   description: "CUHKSZ 飞跃手册",
@@ -37,7 +34,7 @@ export default {
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/CUHKSZFYSC/CUHKSZFYSC",
+        link: "https://github.com/CUHKSZFYSC/cuhkszfysc.github.io",
       },
     ],
   } as DefaultTheme.Config,

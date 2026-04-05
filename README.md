@@ -10,15 +10,15 @@
   <p>
     <img
       alt="contributors"
-      src="https://img.shields.io/github/contributors-anon/CUHKSZFYSC/CUHKSZFYSC?style=for-the-badge&logo=github&color=%23181717"
+      src="https://img.shields.io/github/contributors-anon/CUHKSZFYSC/cuhkszfysc.github.io?style=for-the-badge&logo=github&color=%23181717"
     >
     <img
       alt="deployment"
-      src="https://img.shields.io/github/deployments/CUHKSZFYSC/CUHKSZFYSC/production?style=for-the-badge&logo=VitePress&logoColor=%23FFFFFF&label=deployment&color=%235C73E7"
+      src="https://img.shields.io/github/deployments/CUHKSZFYSC/cuhkszfysc.github.io/production?style=for-the-badge&logo=VitePress&logoColor=%23FFFFFF&label=deployment&color=%235C73E7"
     >
     <img
       alt="size"
-      src="https://img.shields.io/github/repo-size/CUHKSZFYSC/CUHKSZFYSC?style=for-the-badge&logo=github"
+      src="https://img.shields.io/github/repo-size/CUHKSZFYSC/cuhkszfysc.github.io?style=for-the-badge&logo=github"
     >
   </p>
 </section>
