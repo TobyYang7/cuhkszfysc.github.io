@@ -6,7 +6,7 @@ date: 2025-04-05
 year: 26
 ---
 # 一个 NYU PhD Offer 背后的故事
-![[下载 (3).jpeg]][图片展示示范]
+![oldman](oldman.jpeg)
 
 
 我拿到纽约大学 PhD 的经历，可以说全程都是 connection 在发挥作用。
