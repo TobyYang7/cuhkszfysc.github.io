@@ -7,6 +7,9 @@ university: uchi
 department: sds
 date: 2026-04-05
 ---
+# test SVD & PCA
+
+
 Let $A \in R^{m * n}$, wlog assume $m \geq n, Rank(A) = r$
 $$
 A'A = U DU' 
