@@ -5,8 +5,7 @@ department: sme
 date: 2025-04-05
 year: 26
 ---
-
-### 一个 NYU PhD Offer 背后的故事
+# 一个 NYU PhD Offer 背后的故事
 ![[下载 (3).jpeg]][图片展示示范]
 
 
