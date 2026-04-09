@@ -1,6 +1,6 @@
 # 元数据
 
-飞跃手册使用 Markdown 文件开头的 [YAML](https://yaml.org) frontmatter 来为经验分享贴子添加元数据。其大致格式如下：
+飞跃手册使用 Markdown 文件开头的 [YAML](https://yaml.org) frontmatter 来为经验分享贴子添加元数据。您需要在Markdown文件的开头使用`---`来分割元数据，其大致格式如下：
 
 ```markdown
 ---
@@ -96,10 +96,6 @@ med: 医学院
 region: us # 单个地区
 region: [us, ca] # 多个地区
 ```
-
-### `university`
-
-学校代码，以学校域名为准。例如 University of Notre Dame 的域名为 `nd.edu`，则代码为 `nd`。如果学校还未在其他经验分享未出现过，则需要先在 `src/metadata.yaml` 中添加对应的值。
 
 ### `year`
 
