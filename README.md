@@ -1,7 +1,7 @@
 <section align="center">
   <img
-    alt="SUSTech"
-    src="./content/public/sustech.png"
+    alt="logo-fysc"
+    src="./content/public/logo.png"
     height="150"
   >
 
