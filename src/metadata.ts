@@ -61,7 +61,6 @@ const METADATA = {
     phy: "物理系",
     sdim: "系统设计与智能制造学院",
     sme: "深港微电子学院",
-    "stat-ds": "统计与数据科学系",
   },
 
   /** Based on domain name of university website: xyz.edu */
