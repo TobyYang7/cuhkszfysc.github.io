@@ -5,7 +5,7 @@
 ```markdown
 ---
 type: grad
-author: 徐杨生
+author: 徐阳升
 year: 14
 degree: master
 school: hss
