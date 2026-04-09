@@ -21,6 +21,7 @@ const schema = {
       ],
     },
     title: { type: "string" },
+    school: { type: "string", enum: OPTIONS.school },
     type: { type: "string", enum: OPTIONS.type },
     university: { type: "string", enum: OPTIONS.university },
     year: { type: "integer", minimum: 11, maximum: 99 },

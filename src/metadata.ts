@@ -60,13 +60,17 @@ const METADATA = {
     ocean: "海洋科学与工程系",
     phy: "物理系",
     sdim: "系统设计与智能制造学院",
-    sme: "深港微电子学院",
   },
+  school: {
+    sds: "数据科学学院",
+    sai: "人工智能学院",
+    hss: "人文社科学院",
+    sse: "理工学院",
+    mus: "音乐学院",
+    sme: "经管学院",
+    med: "医学院",
+  }
 
-  /** Based on domain name of university website: xyz.edu */
-  university: {
-    nd: "University of Notre Dame",
-  },
 };
 
 export default METADATA;

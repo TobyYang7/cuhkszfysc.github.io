@@ -1,10 +1,10 @@
 ---
 type: grad 
-author: 黄冠超 
+author: LDD 
 year: 19 
 degree: master 
 university: nd 
-department: sme 
+school: sds 
 date: 2023-02-19 
 ---
 hello world

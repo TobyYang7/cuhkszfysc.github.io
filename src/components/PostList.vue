@@ -11,7 +11,8 @@ defineProps<{ posts: Page[] }>();
       {{ post.metadata.date }} -
       <!-- FIXME: need to validate metadata type -->
       <!-- @vue-expect-error need to type this -->
-      {{ `[${METADATA.type[post.metadata.type]}]` }} -
+      {{ `[${METADATA.type[post.metadata.type]}]${post.metadata.school ? `[${METADATA.school[post.metadata.school]}]` : ""}` }}
+      -
       <a :href="post.url">{{ post.title ?? "无标题" }}</a>
     </li>
   </ul>
