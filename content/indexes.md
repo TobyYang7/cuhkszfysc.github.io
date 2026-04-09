@@ -13,13 +13,14 @@ import { posts } from "../src/collections";
 import { REGIONS } from "./region/[key].paths";
 import { SCHOOLS } from "./school/[key].paths";
 import { TYPES } from "./type/[key].paths";
-import { YEARS } from "./year/[year].paths";
 
-const yearEntries = YEARS.map((year) => ({
-  year,
-  label: `20${year} 级`,
-  count: posts.filter((post) => post.metadata.year === year).length,
-}));
+const yearEntries = [...new Set(posts.map((post) => post.metadata.year))]
+  .sort((a, b) => a - b)
+  .map((year) => ({
+    year,
+    label: `20${year} 级`,
+    count: posts.filter((post) => post.metadata.year === year).length,
+  }));
 
 const regionEntries = Object.entries(REGIONS).map(([key, label]) => ({
   key,
@@ -74,4 +75,3 @@ const typeEntries = Object.entries(TYPES).map(([key, label]) => ({
     <a :href="`/region/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
   </li>
 </ul>
-

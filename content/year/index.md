@@ -6,13 +6,14 @@ type: page
 
 <script setup lang="ts">
 import { posts } from "../../src/collections";
-import { YEARS } from "./[year].paths";
 
-const yearEntries = YEARS.map((year) => ({
-  year,
-  label: `20${year} 级`,
-  count: posts.filter((post) => post.metadata.year === year).length,
-}));
+const yearEntries = [...new Set(posts.map((post) => post.metadata.year))]
+  .sort((a, b) => a - b)
+  .map((year) => ({
+    year,
+    label: `20${year} 级`,
+    count: posts.filter((post) => post.metadata.year === year).length,
+  }));
 </script>
 
 <ul>

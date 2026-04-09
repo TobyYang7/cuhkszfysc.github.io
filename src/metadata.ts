@@ -69,7 +69,14 @@ const METADATA = {
     mus: "音乐学院",
     sme: "经管学院",
     med: "医学院",
-  }
+  },
+
+  year: Object.fromEntries(
+    Array.from({ length: 89 }, (_, index) => {
+      const year = String(index + 11).padStart(2, "0");
+      return [year, `20${year} 级`];
+    }),
+  ),
 
 };
 
