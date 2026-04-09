@@ -6,17 +6,17 @@ type: page
 
 <script setup lang="ts">
 import { posts } from "../../src/collections";
-import { SCHOOLS } from "./[key].paths";
+import { YEARS } from "./[year].paths";
 
-const yearEntries = Object.entries(YEARS).map(([key, label]) => ({
-  key,
-  label,
-  count: posts.filter((post) => post.metadata.year === key).length,
+const yearEntries = YEARS.map((year) => ({
+  year,
+  label: `20${year} 级`,
+  count: posts.filter((post) => post.metadata.year === year).length,
 }));
 </script>
 
 <ul>
-  <li v-for="entry in yearEntries" :key="entry.key">
-    <a :href="`/year/${entry.key}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
+  <li v-for="entry in yearEntries" :key="entry.year">
+    <a :href="`/year/${entry.year}`">{{ entry.label }}</a>（{{ entry.count }} 篇）
   </li>
 </ul>
