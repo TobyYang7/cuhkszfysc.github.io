@@ -4,7 +4,7 @@ author: ldt
 year: 22
 degree: phd
 university: uchi
-department: sds
+school: sds
 date: 2026-04-05
 ---
 # test SVD & PCA

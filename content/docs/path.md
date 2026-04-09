@@ -71,11 +71,11 @@
 
 ### 路径名
 
-路径格式为：`<type>[/<subtype>]/<department>[/<major>]`，其中
+路径格式为：`<type>[/<subtype>]/<school>[/<major>]`，其中
 
 - `<type>` 为帖子类别，如 `grad-application`、`oversea-program` 等。
 - `<subtype>` 为可选的细分类别，如 `英语学习` 下细分 `TOEFL`、`GRE` 等。
-- `<department>` 为院系名称，如 `computer-science-and-engineering`、`microelectronics` 等。
+- `<school>` 为学院名称，如 `data-science`、`artificial-intelligence` 等。
 - `<major>` 为可选的专业名称，当一个院系下有多个专业时使用，如 `biology` 下的 `bioinformatics`、`bioscience` 等。
 
 > [!WARNING] 已弃用

@@ -6,7 +6,6 @@ const schema = {
     author: { type: "string" },
     date: { type: "string", pattern: "^\\d{4}-\\d{2}-\\d{2}$" },
     degree: { type: "string", enum: OPTIONS.degree },
-    department: { type: "string", enum: OPTIONS.department },
     employer: { type: "string" },
     program: { type: "string" },
     region: {
@@ -31,7 +30,7 @@ const schema = {
 
 const gradSchema = {
   properties: { type: { const: "grad" } },
-  required: ["department", "program", "region", "university", "year"],
+  required: ["program", "region", "university", "year"],
   not: { required: ["employer"] },
 };
 
@@ -43,7 +42,7 @@ const abroadSchema = {
 
 const jobSchema = {
   properties: { type: { const: "job" }, employer: { type: "string" } },
-  required: ["department", "employer", "region", "year"],
+  required: ["employer", "region", "year"],
   not: { required: ["degree", "program", "university"] },
 };
 

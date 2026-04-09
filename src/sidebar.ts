@@ -5,11 +5,11 @@ import METADATA from "./metadata";
 const posts: DefaultTheme.SidebarItem[] = [
   {
     // TODO: count posts automatically
-    text: "研究生项目总结",
+    text: "学院",
     collapsed: false,
-    items: Object.entries(METADATA.department).map(([key, val]) => ({
+    items: Object.entries(METADATA.school).map(([key, val]) => ({
       text: val,
-      link: `department/${key}`,
+      link: `school/${key}`,
     })),
   },
   { text: "就业", link: "type/job" },

@@ -25,7 +25,7 @@ date: 2023-02-19
 
 - `author`：作者的姓名。
 - `date`：帖子合并的时间，遵守 `YYYY-MM-DD` 格式。
-- `department`：作者所属的院系，详见 [`department`](#department)。
+- `school`：作者所属的学校/学院，详见 [`school`](#school)。
 - `type`：帖子的类型，可选值如下：
   - `grad`: 个人申请总结。
   - `abroad`: 海外交流项目，包括暑研、暑校等。
@@ -42,25 +42,21 @@ date: 2023-02-19
 除所有帖子都必须包含的字段外，不同类型的帖子有特定的字段要求。可通过点击链接跳转到文档的对应位置查看。
 
 - `grad` - 申请经验
-  - [`department`](#department)
   - [`degree`](#degree)
   - [`region`](#region)
   - [`program`](#program)
   - [`university`](#university)
   - [`year`](#year)
 - `abroad` - 海外交流
-  - [`department`](#department)
   - [`region`](#region)
   - [`university`](#university)
 - `job` - 就业经验
-  - [`department`](#department)
   - [`employer`](#employer)
   - [`year`](#year)
 - `recruit` - 招生信息
   - [`region`](#region)
   - [`university`](#university)
 - `experience` - 其他专项经验分享
-  - [`department`](#department)
 
 ## 所有可用字段
 
