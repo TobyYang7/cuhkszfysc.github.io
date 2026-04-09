@@ -52,7 +52,7 @@ type: page
 - [南方科技大学飞跃手册](https://sustech-application.com/)
 - [浙江大学飞跃手册](http://www.isee.zju.edu.cn/2025/0314/c56480a3027185/page.htm)
 - [上海交大生存手册](https://survivesjtu.gitbook.io/survivesjtumanual)
-- [港中深选课经验]()
+<!-- - [港中深选课经验]() -->
 <!-- - [16级材料系保研手册](https://docs.qq.com/doc/DY1JUbGJkaGNMTHVq?disableReturnList=1&_from=2&ADUIN=820251273&ADSESSION=1573275641&ADTAG=CLIENT.QQ.5665_.0&ADPUBNO=26946&jumpuin=820251273)
 - [生物医学工程保研手册](https://docs.qq.com/doc/DRmtoQlhEdm9oSnpD)
 - 南科大北美申请小分队 \[QQ群群号\]: 894135698
