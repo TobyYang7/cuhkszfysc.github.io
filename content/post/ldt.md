@@ -1,7 +1,7 @@
 ---
 type: grad 
 author: LDD 
-year: 19 
+year: 24
 degree: master 
 university: nd 
 school: sds 
