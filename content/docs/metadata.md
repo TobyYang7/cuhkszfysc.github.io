@@ -1,5 +1,7 @@
 # 元数据
 
+转载自[南科大飞跃手册](https://sustech-application.com/),有删改
+
 飞跃手册使用 Markdown 文件开头的 [YAML](https://yaml.org) frontmatter 来为经验分享贴子添加元数据。您需要在Markdown文件的开头使用`---`来分割元数据，其大致格式如下：
 
 ```markdown
