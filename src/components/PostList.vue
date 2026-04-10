@@ -19,7 +19,7 @@ function formatPostMeta(post: Page) {
       : undefined,
   ].filter((part): part is string => Boolean(part));
 
-  return `[${parts.join("，")}]`;
+  return `[${parts.join("｜")}]`;
 }
 </script>
 
