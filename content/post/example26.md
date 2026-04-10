@@ -4,6 +4,7 @@ type: grad
 degree: phd
 region: us
 school: sds
+date: 2026-04-10
 ---
 
 # Connection在申请PhD时的重要性
